@@ -44,14 +44,9 @@ const newHub = {
     ]
 }
 
-const delay = ms => new Promise(
-  resolve => setTimeout(resolve, ms)
-);
-
 const CameraScreen = ({navigation}) => {
     const [hasPermission, setHasPermission] = useState(null);
     const [scanned, setScanned] = useState(false);
-    const [scannedData, setScannedData] = useState('');
 
     useEffect(() => {
         const getBarCodeScannerPermissions = async () => {
@@ -95,14 +90,6 @@ const CameraScreen = ({navigation}) => {
             }
         }
     };
-
-    if (scannedData) {
-        navigation.navigate({
-                name: 'Home',
-                params: {newHub: newHub},
-                merge: true,
-              });
-    }
 
     return (
         <View style={styles.container}>
