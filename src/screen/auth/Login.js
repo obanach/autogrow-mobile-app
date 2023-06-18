@@ -1,14 +1,12 @@
 import {Box, Button, Center, FormControl, Heading, Input, VStack} from "native-base";
 import {useState} from "react";
-import {StyleSheet} from "react-native";
-import SplashScreen from "../SplashScreen";
-import {waitFor} from "@babel/core/lib/gensync-utils/async";
+import SplashScreen from "../Splash";
 
 const delay = ms => new Promise(
   resolve => setTimeout(resolve, ms)
 );
 
-const Login = ({navigation}) => {
+const LoginScreen = ({navigation}) => {
 
     const [loading, setLoading] = useState(false);
     const [username, setUsername] = useState('');
@@ -73,12 +71,4 @@ const Login = ({navigation}) => {
     )
 }
 
-const styles = StyleSheet.create({
-   container: {
-       paddingHorizontal: 20,
-       backgroundColor: '#F4F6FA',
-       height: '100%'
-   }
-});
-
-export default Login;
+export default LoginScreen;

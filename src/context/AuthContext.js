@@ -1,24 +1,19 @@
+import createDataContext from "./createDataContext";
 
 
 const user = {
-    userId: 1,
     token: 'abc123',
     username: 'testuser',
-    email: 'example@test.pl',
     firstName: 'Test',
-    lastName: 'User',
 }
 
 const authReducer = (state, action) => {
     switch (action.type) {
         case 'login':
             return {
-                userId: 1,
-                token: 'abc123',
-                username: 'testuser',
-                email: 'example@test.pl',
-                firstName: 'Test',
-                lastName: 'User',
+                token: action.payload.token,
+                username: action.payload.username,
+                firstName: action.payload.firstName,
             }
         case 'logout':
             return null;
@@ -31,17 +26,27 @@ const login = (dispatch) => {
 
     return({username, password}) => {
         console.log('User' + username + 'logged in');
+
         dispatch({
             type: 'login',
             payload: {
-                userId: 1,
                 token: 'abc123',
-                username: 'testuser',
-                email: 'example@test.pl',
-                firstName: 'Test',
-                lastName: 'User',
+                username: 'test',
+                firstName: 'TEST',
             },
         });
     }
 
 }
+
+const logout = dispatch => {
+    return () => {
+        dispatch({type: 'logout'});
+    };
+};
+
+export const {Provider, Context} = createDataContext(
+  authReducer,
+  {login, logout},
+  {token: null, username: '', firstName: ''},
+);
