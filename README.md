@@ -1,28 +1,26 @@
 # AutoGrow Mobile App
-Aplikacja wykonana jako projekt zaliczeniowy w ramach przedmiotu Aplikacje Mobilne na Politechnice Poznańskiej. Głównym celem aplikacji jest umożliwienie użytkownikowi zdalnego zarządzania namiotem uprawowym oraz dodawanie nowych hubów poprzez skanowanie kodów QR. Projekt ten stanowi również część pracy inżynierskiej i przewiduje dalsze rozbudowywania o funkcjonalność automatycznego planowania uprawy.
+This application has been developed as a final project for the Mobile Applications course at Poznań University of Technology. The primary aim of this application is to enable the user to remotely manage a cultivation tent and add new hubs by scanning QR codes. This project also forms part of the engineering thesis and anticipates further development to include automatic crop planning functionality.
 
-## Funkcjonalności:
-- Logowanie do chronionych części aplikacji
-- Wyświetlanie przypisanych hubów
-- Dodawanie nowego huba poprzez skanowanie kodu QR
-- Widok szczegółów dla wybranego huba
-- Możliwość sterowania modułami huba
+## Features:
+- Login to protected areas of the application
+- Display of assigned hubs
+- Addition of a new hub via QR code scanning
+- Detailed view for the selected hub
+- Capability to control hub modules
 
 
-## Wymagania
+## Requirements
+- [Node.js](https://nodejs.org/) (version 14 or later)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) (installed globally)
 
-- [Node.js](https://nodejs.org/) (w wersji 14 lub nowszej)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/) (zainstalowane globalnie)
+## Dependencies
+To install the required dependencies, follow these steps:
 
-## Instalacja zależności
-
-Aby zainstalować wymagane zależności, wykonaj następujące kroki:
-
-1. Sklonuj to repozytorium na swój komputer.
+1. Clone this repository onto your computer.
 ```shell
    git clone https://github.com/obanach/autogrow-mobile-app.git
 ```
-2. Zainstaluj zależności przy użyciu NPM lub Yarn.
+2. Install dependencies using NPM or Yarn.
 ```shell
 npm install
 ```
@@ -31,13 +29,13 @@ lub
 yarn install
 ```
 
-## Uruchomienie
-Aby uruchomić aplikację, wykonaj następujące kroki:
+## Running
+To run the application, follow these step:
 ```shell
 expo start
 ```
 
-## Nagrania:
+## Recordings:
 
 https://github.com/obanach/autogrow-mobile-app/assets/35408041/9f6c9681-2cf8-41d3-97c5-68ef96026189
 
