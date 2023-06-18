@@ -1,4 +1,5 @@
-# autogrow-mobile-app
+# AutoGrow Mobile App
+Aplikacja wykonana jako projekt zaliczeniowy w ramach przedmiotu Aplikacje Mobilne na Politechnice Poznańskiej. Głównym celem aplikacji jest umożliwienie użytkownikowi zdalnego zarządzania namiotem uprawowym oraz dodawanie nowych hubów poprzez skanowanie kodów QR. Projekt ten stanowi również część pracy inżynierskiej i przewiduje dalsze rozbudowywania o funkcjonalność automatycznego planowania uprawy.
 
 https://github.com/obanach/autogrow-mobile-app/assets/35408041/9f6c9681-2cf8-41d3-97c5-68ef96026189
 
