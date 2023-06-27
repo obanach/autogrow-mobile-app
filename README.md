@@ -40,10 +40,14 @@ expo start
 
 ## Recordings:
 
-https://github.com/obanach/autogrow-mobile-app/assets/35408041/9f6c9681-2cf8-41d3-97c5-68ef96026189
 
-https://github.com/obanach/autogrow-mobile-app/assets/35408041/45947566-f557-4fc5-82b0-a5c64769a9fb
+https://github.com/obanach/autogrow-mobile-app/assets/35408041/8250f46e-483f-4d92-91d8-efc28d3dd560
 
-https://github.com/obanach/autogrow-mobile-app/assets/35408041/ff4b9fb7-9aec-4383-90af-d76f8cd0878e
 
-https://github.com/obanach/autogrow-mobile-app/assets/35408041/1af7db52-606b-4372-8dfd-a128bd84bd0d
+https://github.com/obanach/autogrow-mobile-app/assets/35408041/04a45246-89f7-4f0c-8feb-7de7ab89dc30
+
+
+https://github.com/obanach/autogrow-mobile-app/assets/35408041/3ee68044-1f32-4301-ae3c-6a7217df826d
+
+
+https://github.com/obanach/autogrow-mobile-app/assets/35408041/fcaf42a8-6571-4888-b075-ad4f6b46beed
